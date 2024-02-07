@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+</head>
+<body>
+    <input type="text" id="nome" placeholder="Digite o nome do aluno">
+    <input type="text" id="nota1" placeholder="Digite a nota do 1ºBimestre">
+    <input type="text" id="nota2" placeholder="Digite a nota do 2ºBimestre">
+    <input type="text" id="nota3" placeholder="Digite a nota do 3ºBimestre">
+    <input type="text" id="nota4" placeholder="Digite a nota do 4ºBimestre">
+    <button onclick="calcular()">Enviar</button>
+    <script src="js/boletim.js"></script>
+
+    <div class="tabela">
+        <p>Média do Aluno:</p>
+
+        <p id="error"></p>
+
+        <div class="elementos">
+          <p>Nome:</p>
+          <p id="nomes"></p>
+        </div>
+
+        <div class="elementos">
+          <p>ID:</p>
+          <p id="id"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Maior Nota:</p>
+          <p id="maior"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Menor Nota:</p>
+          <p id="menor"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Média final:</p>
+          <p id="mf"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Situação:</p>
+          <p id="situacao"></p>
+        </div>
+    </div>
+    
+</body>
+</html>
