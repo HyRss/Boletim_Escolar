@@ -1,0 +1,41 @@
+@import url(./Header.css);
+@import url(./Main.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Fundo_01:     #68838B;
+    --Fundo_02:     #AEDDD6;
+    --Fundo_Ti_But: #315569;
+    --Fundo_Bot:    #3C5C66;
+    --Fundo_Tex:    #E1E4E5;
+    --Fonte_Ti:  'Jost', sans-serif;
+    --Fonte_Tex: 'Markazi Text', serif;
+}
+
+@media screen and (max-width:1020px){
+
+    .flex{
+        flex-direction: column-reverse;
+    }
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+    section.topo_do_site{
+        padding: 20px 8%;
+    }
+
+    .topo_do_site .img_topo_site img{
+        width: 100%;
+    }
+    .btn-abrir-menu{
+        display: block;
+    }
+}
