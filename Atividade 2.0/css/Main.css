@@ -28,12 +28,16 @@ section.topo_do_site .flex{
 
 .topo_do_site .txt_topo_site p{
     color: var(--Fundo_Ti_But);
-    margin: 40px 0px;   
+    margin: 40px 0px;
+    font-family: var(--Fonte_Tex);
+    font-size: 25px;
 }
 
 .topo_do_site .img_topo_site img{
     border-radius: 30px;
 }
+
+
 
 
 
